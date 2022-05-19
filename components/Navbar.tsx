@@ -17,7 +17,7 @@ const Navbar = () => {
        <div className="flex gap-2 ">
           {user ? (
             <>
-              <button className="bg-slate-900 text-white font-semibold p-4 rounded-full" onClick={()=>router.push("/admin")}>
+              <button className="bg-slate-800 text-white font-semibold p-4 rounded-full" onClick={()=>router.push("/admin")}>
                 Write Posts
               </button>
               <button className="bg-transparent border-2 rounded-full hover:border-0 hover:bg-purple-300 hover:text-white border-purple-300 text-lg px-6 font-semibold transition-all ease-in-out" onClick={logOut}>
